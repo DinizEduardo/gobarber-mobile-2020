@@ -1,4 +1,6 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, {
+  useState, useCallback, useEffect, useRef,
+} from 'react';
 import {
   Image,
   KeyboardAvoidingView,
@@ -64,7 +66,7 @@ const SignIn: React.FC = () => {
             </View>
             <Form
               ref={formRef}
-              onSubmit={data => console.log(data)}
+              onSubmit={(data) => console.log(data)}
               style={{ width: '100%' }}
             >
               <Input
